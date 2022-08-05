@@ -343,3 +343,17 @@ button {
   width: 100px;
   height: 30px;
 }
+
+#back, #trage{ 
+  text-align: center;
+  color: #5BBE42;
+}
+
+P{
+  text-align: justify;
+}
+
+img#logo {
+  height: 55px;
+  border-radius: 50%;
+}

@@ -357,3 +357,61 @@ img#logo {
   height: 55px;
   border-radius: 50%;
 }
+
+/* TABLE */
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.table-title-col {
+  width: 20%;
+}
+
+.table-description-col {
+  width: 55%;
+}
+
+.table-title {
+  background-color: rgb(119, 30, 48);
+  padding: 8px;
+  margin: 0 0 2px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.table-title p {
+  font-size: 20px;
+}
+
+.table-description {
+  padding: 10px;
+  padding-left: 50px;
+  margin: 0 0 2px 0;
+  background: #f2f2f2;
+  font-size: 15px;
+  color: #7d7b7b;
+}
+
+.table-description div{
+  padding: 0 10% 0 10%;
+}
+
+@media only screen and (max-width: 450px){
+  .table {
+      display: grid;
+      justify-content: inherit;
+  }
+
+  .table-title-col {
+      width: 100%;
+  }
+
+  .table-description {
+      padding-left: 10px;
+  }
+  
+  .table-description-col {
+      width: 100%;
+  }
+}
